@@ -32,6 +32,7 @@ private:
     QTcpSocket *tcpSocket;
     QTcpServer *tcpServer;
     QString showText;
+    QSqlDatabase db;
     void init();
 
 };
